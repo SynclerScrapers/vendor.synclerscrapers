@@ -1,0 +1,22 @@
+{
+    "name": "SynclerScrapers",
+    "description": "External providers combined into one, easy to use vendor for use with Syncler",
+    "tutorial": "https://github.com/SynclerScrapers/vendor.synclerscrapers",
+    "support": "https://github.com/SynclerScrapers/vendor.synclerscrapers/issues",
+    "website": "https://github.com/SynclerScrapers/vendor.synclerscrapers",
+    "packages": [
+        {
+            "manifest": "https://raw.githubusercontent.com/SynclerScrapers/OpenScrapers/main/express/manifest.openscraper.json",
+            "description": "Express provider for Syncler by SynclerScrapers. It contains all the sources you will need in one package. Use this package on its own."
+        }
+    ],
+    "cacheServers": [
+        "cache.bouncy.cc"
+    ],
+    "defaults": {
+        "packages": [
+            "https://raw.githubusercontent.com/SynclerScrapers/OpenScrapers/main/express/manifest.openscraper.json"
+        ],
+        "cacheServer": "cache.bouncy.cc"
+    }
+}
